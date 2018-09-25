@@ -1,0 +1,315 @@
+v2.1.3 (Apr 08, 2017)
+ -----------------------------
+ - Include Support tab in Theme Options Panel
+ - Fixed wrong background field constructor args in the Options Panel
+ - Load typography scripts only on theme options page
+ 
+ Files updated:
+ - style.css
+ - functions.php
+ - theme-options.php
+ - options/support.php
+ - options/options.php 
+ - options/css/options.css
+ - options/js/clipboard.min.js
+ - options/js/help.js
+ - options/fields/background/field_background.php 
+ - options/fields/group/field_group.php 
+ - options/google-typography/google-typography.php 
+ 
+v2.1.2 (Mar 03, 2017)
+-----------------------------
+- Improved internalization
+
+Files updated:
+- functions.php
+- lang/best.pot
+- lang/default.mo
+- lang/default.po
+- style.css
+
+v2.1.1 (Jan 24, 2017)
+-----------------------------
+- Fix carousel issue
+
+Files updated:
+- css/flexslider.css
+- functions.php
+- index.php
+- js/jquery.flexslider-min.js
+- style.css
+
+v2.1.0 (Jan 18, 2017)
+-----------------------------
+- One click demo importer improvements
+
+Files updated:
+- style.css
+- functions.php
+- options/demo-importer/
+
+
+v2.0.9 (Jan 12, 2017)
+-----------------------------
+- One click demo importer improvements
+
+Files updated:
+- style.css
+- functions.php
+- options/demo-importer/
+
+
+v2.0.8 (Nov 03, 2016)
+-----------------------------
+- Fix: Zoom-out header animation for posts
+- Updated translation template
+
+Files updated:
+- functions.php
+- lang/default.pot
+- single.php
+- style.css
+
+
+v2.0.7 (Oct 22, 2016)
+-----------------------------
+- One click demo importer improvements
+- Install Plugins page improvements
+
+Files updated:
+- style.css
+- functions.php
+- theme-presets.php
+- options/
+- lang/
+- functions/plugin-activation.php
+
+
+v2.0.6 (July 04, 2016)
+-----------------------------
+- Updated lazy load script to work with responsive images
+- Fixed mts_disable_auto_update_theme() PHP warning
+
+Files updated:
+- style.css
+- functions.php
+- js/layzr.min.js
+
+
+v2.0.5 (Mar 17, 2016)
+-----------------------------
+- Updated code on Recommended plugins page
+
+Files updated:
+- style.css
+- functions/plugin-activation.php
+- css/addons.css
+
+v2.0.4 (Mar 10, 2016)
+-----------------------------
+- Fix lazy loading warnings
+
+Files updated:
+- style.css
+- functions.php
+
+v2.0.3 (Mar 8, 2016)
+-----------------------------
+- Recommended plugins page changes
+
+Files updated:
+- style.css
+- functions.php
+- functions/plugin-activation.php
+- css/addons.css
+
+
+v2.0.2 (Feb 27, 2016)
+-----------------------------
+- Fixed issue with tabs in options panel after import
+
+Files changed:
+- style.css
+- functions.php
+- options/js/options.js
+
+
+v2.0.1 (Feb 22, 2016)
+-----------------------------
+- Fixed Header issue on mobile screen
+- Fixed Shop responsiveness on small screen
+
+Files changed:
+- style.css
+- functions.php
+- css/woocommerce2.css
+
+
+v2.0 (Feb 22, 2016)
+-----------------------------
+- Major Framework Update
+- Huge code and speed optimization
+- Added 4 Unique Layouts (Viral, Tech, Fashion & Adult, ref: Import/Export Tab)
+- Added New improved Options Panel
+- Added WooCommerce Support
+- Added Lazy Loading for images (Improves site speed dramatically)
+- Added option to load Async JavaScripts
+- Added option to Remove ?ver= parameters from CSS and JS files
+- Added Drag & Drop feature for homepage meta info
+- Added Drag & Drop feature for single post meta info
+- Added Drag & Drop feature for Single Post Elements
+- Added Option to set separate menu for mobile screens
+- Added Option to Create Child Theme
+- Added Touch & Metro icon support
+- Added option for Custom Slides in Slider
+- Added Advanced background option for Site (Set Background colors, patterns, custom image and gradients)
+- Added Advanced background option for header (Set Background colors, patterns, custom image and gradients)
+- Added Advanced background option for footer (Set Background colors, patterns, custom image and gradients)
+- Added Option to Show/Hide social sharing icons on Pages
+- Added Drag & Drop option for Social buttons to change the order
+- Added filter in functions.php for white labeling the theme
+- Added Display Trackbacks and Pingbacks in Comments
+- Added missing strings in translation file
+- Added Improved if/else PHP conditions
+- Added sidebar ID instead of the name
+- Added Improved Recommended Plugins Page
+- Added prefix mts_ to functions in functions.php
+- Added ZoomOut Header Effect
+- Added advanced Import/Export option (now you can import demo content & widgets as well)
+- Fixed bug which was preventing closing of Plugin recommendation message
+- Fixed nothumb-best-widgetthumb.png on ajax search
+- Fixed loop on Popular Posts widget
+- Fixed Stripped HTML tags from .pot
+- Fixed deprecated functions in all MyThemeShop Widgets
+- Changed text domain from 'mythemeshop' to 'best'
+- Updated Facebook Like Widget
+- Updated Pop-up script
+- Updated Font Awesome to v4.4.0
+- Removed 'nofollow' from archive links
+- Removed unnecessary wp_register_script calls
+- Removed singlepost-parallax.php template
+- Removed page-parallax.php template
+- Removed Translation Panel & added My WP Translate Plugin for the same
+- Removed unused codes
+- Improved Schema markup
+- Replaced numbered pagination code with WordPress' default pagination
+- Replaced Archive page title code with the_archive_title()
+
+Note:
+- You need to regenerate thumbnails after upgrade, you can use "OTF Regenerate Thumbnails" Plugin
+- If navigation is messed up after update, you can set it up again from Appearance >> Menus
+- In Parallax page template you need to setup parallax option again by editing that page/post
+
+
+v1.2.7 (Feb 08, 2016)
+-----------------------------
+- Added recommended plugins page
+
+Files changed:
+- style.css
+- functions/plugin-activation.php
+- css/addons.css
+- js/addons.js
+
+
+v1.2.6 (Feb 07, 2015)
+-----------------------------
+- Allow overriding of theme functions through child theme
+
+Files updated:
+- style.css
+- functions/theme-actions.php
+
+
+v1.2.5 (Feb 06, 2015)
+-----------------------------
+- Fix newly introduced structured data errors
+
+Files updated:
+- style.css
+- single.php
+- functions/theme-actions.php
+
+
+v1.2.4 (Nov 19, 2015)
+-----------------------------
+- Changed widget constructors to prevent deprecated notice
+- Fixed issue in Category Post widget
+
+Files updated:
+- style.css
+- functions/widget-social.php
+- functions/widget-fblikebox.php
+- functions/widget-ad125.php
+- functions/widget-ad728.php
+- functions/widget-subscribe.php
+- functions/widget-ad300.php
+- functions/widget-catposts.php
+
+
+v1.2.3 (Jun 09, 2015)
+-----------------------------
+- Fixed responsive navigation menu issue
+- Reduced number of posts in footer carousel
+- Post format code removed as theme don't support it
+- Added support for add_theme_support( 'title-tag' )
+- Added support for add_theme_support( 'title-tag' )
+- Changed Copyright option’s description
+- Added nofollow to mythemeshop.com link
+- Updated recommended plugin list
+- Updated code which prevents wrong theme update from wordpress.org
+- Updated Facebook like box widget with new design
+- Optimized CSS files
+
+Files updated:
+- style.css
+- index.php
+- single.php
+- header.php
+- footer.php
+- functions.php
+- theme-options.php
+- singlepost-parallax.php
+- lang/default.po
+- css/flexslider.css
+- functions/widget-fblikebox.php
+- functions/plugin-activation.php
+
+
+v1.2.2 (May 3, 2015)
+-----------------------------
+- Limit carousel posts to 20
+
+Files Updated:
+- style.css
+- footer.php
+
+v1.2.1 (Mar 20, 2015)
+-----------------------------
+- Updated version number and fixed minor issues
+
+Files Updated:
+- style.css
+- responsive.css
+- options/options.php
+
+v1.0.2 (Mar 20, 2015)
+-----------------------------
+- Changed theme folder name from 'best' to 'mts_best'. (This will fix wrong update notification form wordpress.org)
+- Removed wp-shortcode.css file and added custom shortcode css in style.css
+- Fixed vertical scroll issue on mobile screens.
+
+Files Updated:
+- style.css
+- responsive.css
+- functions.php
+
+
+v1.0.1 (Sep 25, 2014)
+-----------------------------
+- Fixed translation panel issue
+
+
+v1.0 (Aug 19, 2014)
+-----------------------------
+- Theme Released

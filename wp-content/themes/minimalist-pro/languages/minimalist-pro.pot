@@ -1,0 +1,67 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Minimalist Pro 1.0\n"
+"POT-Creation-Date: 2017-01-19 09:20-0500\n"
+"PO-Revision-Date: 2017-01-19 09:20-0500\n"
+"Last-Translator: StudioPress <translations@studiopress.com>\n"
+"Language-Team: StudioPress <translations@studiopress.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: functions.php:53 functions.php:55
+msgid "Menu"
+msgstr ""
+
+#: functions.php:89
+msgid "Primary Menu"
+msgstr ""
+
+#: lib/customize.php:64
+msgid ""
+"Change the default color for entry links, linked titles, menu links, and "
+"more."
+msgstr ""
+
+#: lib/customize.php:65
+msgid "Link Color"
+msgstr ""
+
+#: lib/customize.php:85
+msgid "Change the default color for button hovers."
+msgstr ""
+
+#: lib/customize.php:86
+msgid "Accent Color"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Minimalist Pro"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://briangardner.com/themes/minimalist/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "A mobile responsive and HTML5 theme built for the Genesis Framework."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Brian Gardner"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://briangardner.com/"
+msgstr ""
